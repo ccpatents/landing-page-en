@@ -10786,9 +10786,17 @@ header.masthead b {
   opacity: 0.8;
 }
 
+header.masthead .btn {
+  padding: 1.15rem;
+}
+
 header.masthead p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-family: 'Gothic+A1', sans-serif;
+}
+
+header.masthead span {
+  font-size: 0.6rem;
 }
 
 header.masthead h1 {
@@ -10826,10 +10834,13 @@ header.masthead #scroll-down i {
     padding-bottom: 0;
   }
   header.masthead p {
-    font-size: 1.2rem;
+    font-size: .9rem;
   }
   header.masthead h1 {
     font-size: 3rem;
+  }
+  header.masthead span {
+    font-size: 0.8rem;
   }
 }
 
@@ -10838,10 +10849,10 @@ header.masthead #scroll-down i {
     font-size: 3.5rem;
   }
   header.masthead p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   header.masthead span {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
   }
 }
 
