@@ -33,7 +33,7 @@ header.masthead {
   }
 
   .btn {
-    padding: 1.15rem;
+    padding: .7rem .9rem;
   }
 
   p {
@@ -64,8 +64,16 @@ header.masthead {
   @include media-breakpoint-down(sm) {
     padding-top: 6.5rem !important;
 
+    .btn {
+      padding: 1.15rem;
+    }
+
     p {
       font-size: 1.1rem;
+    }
+
+    span {
+      font-size: 1.0rem;
     }
   }
 
@@ -74,6 +82,10 @@ header.masthead {
     min-height: 40rem;
     padding-top: $navbar-height;
     padding-bottom: 0;
+
+    .btn {
+      padding: 1.15rem;
+    }
 
     p {
       font-size: .9rem;

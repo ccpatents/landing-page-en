@@ -10797,7 +10797,7 @@ header.masthead b {
 }
 
 header.masthead .btn {
-  padding: 1.15rem;
+  padding: .7rem .9rem;
 }
 
 header.masthead p {
@@ -10831,8 +10831,14 @@ header.masthead #scroll-down i {
   header.masthead {
     padding-top: 6.5rem !important;
   }
+  header.masthead .btn {
+    padding: 1.15rem;
+  }
   header.masthead p {
     font-size: 1.1rem;
+  }
+  header.masthead span {
+    font-size: 1.0rem;
   }
 }
 
@@ -10842,6 +10848,9 @@ header.masthead #scroll-down i {
     min-height: 40rem;
     padding-top: 72px;
     padding-bottom: 0;
+  }
+  header.masthead .btn {
+    padding: 1.15rem;
   }
   header.masthead p {
     font-size: .9rem;
