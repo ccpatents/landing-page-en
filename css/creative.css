@@ -10796,6 +10796,15 @@ header.masthead b {
   opacity: 0.8;
 }
 
+header.masthead b1 {
+  color: white;
+  background-color: #fc5d5d;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 2px 3px 3px 2px;
+  opacity: 0.8;
+}
+
 header.masthead .btn {
   padding: .7rem .9rem;
 }
