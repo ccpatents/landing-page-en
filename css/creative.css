@@ -10792,7 +10792,7 @@ header.masthead b {
   background-color: #ffd300;
   font-weight: bold;
   border-radius: 2px;
-  padding: 2px 3px 3px 2px;
+  padding: 3px 4px 4px 3px;
   opacity: 0.8;
 }
 
@@ -10805,17 +10805,9 @@ header.masthead b1 {
   opacity: 0.8;
 }
 
-header.masthead .btn {
-  padding: .7rem .9rem;
-}
-
 header.masthead p {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-family: 'Gothic+A1', sans-serif;
-}
-
-header.masthead span {
-  font-size: 0.6rem;
 }
 
 header.masthead h1 {
@@ -10836,18 +10828,21 @@ header.masthead #scroll-down i {
   font-size: 18px;
 }
 
+header.masthead .popup-img {
+  border: 0.2rem double #aaa;
+  border-radius: 0.5rem;
+}
+
 @media (max-width: 767.98px) {
   header.masthead {
     padding-top: 6.5rem !important;
   }
-  header.masthead .btn {
-    padding: 1.3rem;
-  }
   header.masthead p {
     font-size: 1.1rem;
   }
-  header.masthead span {
-    font-size: 1.0rem;
+  header.masthead .popup-img {
+    border: 0rem;
+    border-radius: 0rem;
   }
 }
 
@@ -10858,17 +10853,11 @@ header.masthead #scroll-down i {
     padding-top: 72px;
     padding-bottom: 0;
   }
-  header.masthead .btn {
-    padding: 1.3rem;
-  }
   header.masthead p {
-    font-size: .9rem;
+    font-size: 1.2rem;
   }
   header.masthead h1 {
     font-size: 3rem;
-  }
-  header.masthead span {
-    font-size: 0.8rem;
   }
 }
 
@@ -10877,10 +10866,10 @@ header.masthead #scroll-down i {
     font-size: 3.5rem;
   }
   header.masthead p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   header.masthead span {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
   }
 }
 

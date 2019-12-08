@@ -25,10 +25,10 @@ header.masthead {
 
   b {
     color: $dark;
-		background-color: $gold;
+    background-color: $gold;
     font-weight: bold;
     border-radius: 2px;
-    padding: 2px 3px 3px 2px;
+    padding: 3px 4px 4px 3px;
     opacity: 0.8;
   }
 
@@ -41,17 +41,11 @@ header.masthead {
     opacity: 0.8;
   }
 
-  .btn {
-    padding: .7rem .9rem;
-  }
-
   p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-family: 'Gothic+A1', sans-serif;
   }
-  span {
-    font-size: 0.6rem;
-  }
+
   h1 {
     font-size: 2.25rem;
   }
@@ -70,19 +64,21 @@ header.masthead {
     }
   }
 
+  .popup-img {
+    border: 0.2rem double #aaa;
+    border-radius: 0.5rem; 
+  }
+
   @include media-breakpoint-down(sm) {
     padding-top: 6.5rem !important;
-
-    .btn {
-      padding: 1.3rem;
-    }
 
     p {
       font-size: 1.1rem;
     }
 
-    span {
-      font-size: 1.0rem;
+    .popup-img {
+      border: 0rem;
+      border-radius: 0rem; 
     }
   }
 
@@ -92,19 +88,16 @@ header.masthead {
     padding-top: $navbar-height;
     padding-bottom: 0;
 
-    .btn {
-      padding: 1.3rem;
+    p {
+      font-size: 1.2rem;
     }
 
-    p {
-      font-size: .9rem;
-    }
     h1 {
       font-size: 3rem;
     }
 
     span {
-      font-size: 0.8rem;
+      //font-size: 0.85rem;
     }
   }
 
@@ -114,11 +107,11 @@ header.masthead {
     }
 
     p {
-      font-size: 1.1rem;
+      font-size: 1.3rem;
     }
 
     span {
-      font-size: 1.0rem;
+      font-size: 1.2rem;
     }
   }
 }
