@@ -169,7 +169,7 @@ async function WebShare() {
 }
 
 function enlarge_gif() {
-  if (enlarge_event === false) {
+  if (enlarge_event === false && agent.indexOf("windows nt 10.0") != -1) {
     gtag('event', 'enlarge_gif', {
       'event_category': 'button'
     });
