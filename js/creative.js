@@ -126,7 +126,7 @@ let ps_selected = false; // '특허 검색 왜..?'
     if (agent.indexOf("windows nt 10.0") != -1) {
       gtag_ignore = false;
     } else {
-      alert("윈도우10에서만 지원됩니다.");
+      alert("It's only supported on Windows 10.");
     }
 
     if (store_event === false && gtag_ignore === false) {
@@ -155,8 +155,8 @@ async function WebShare() {
   }
 
   const title = "CCPatents";
-  const text = "특허·상표 검색의 혁명. 클릭 몇 번으로 키프리스 검색식이 뚝.딱.";
-  const url = "https://kr.ccpatents.net";
+  const text = "Revolution of Patent and Trademark Search. You can create a USPTO/Google Patents search string with just a few clicks.";
+  const url = "https://en.ccpatents.net";
   try {
     await navigator.share({
       title,
@@ -165,5 +165,14 @@ async function WebShare() {
     });
   } catch (error) {
     return;
+  }
+}
+
+function enlarge_gif() {
+  if (enlarge_event === false) {
+    gtag('event', 'enlarge_gif', {
+      'event_category': 'button'
+    });
+    enlarge_event = true;
   }
 }
