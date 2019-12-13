@@ -1,7 +1,7 @@
 let scroll_1000_event = false;
 let share_event = false;
-let video_event = false;
 let store_event = false;
+let semi_download_event = false;
 
 let ss_selected = true; // '왜 검색식을..?'
 let ps_selected = false; // '특허 검색 왜..?'
@@ -69,19 +69,6 @@ let ps_selected = false; // '특허 검색 왜..?'
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  /*$(".youtube-popup").grtyoutube({
-    autoPlay: true,
-    theme: "light"
-  });
-  document.getElementById('play_video').onclick = function () {
-    if(video_event === false) {
-      gtag('event', 'play_video', {
-        'event_category': 'button'
-      });
-      video_event = treu;
-    }
-  }*/
-
   $('.carousel-posts').owlCarousel({
     autoplay: false,
     autoHeight: true,
@@ -110,7 +97,7 @@ let ps_selected = false; // '특허 검색 왜..?'
 
   //document.querySelector('#share').addEventListener('click', WebShare);
   document.getElementById('share').onclick = function () {
-    if (share_event === false) {
+    if (!share_event) {
       gtag('event', 'share', {
         'event_category': 'button'
       });
@@ -118,6 +105,15 @@ let ps_selected = false; // '특허 검색 왜..?'
     }
 
     WebShare();
+  }
+
+  document.getElementById('download-button').onclick = function () {
+    if (!semi_download_event) {
+      gtag('event', 'semi_download', {
+        'event_category': 'button'
+      });
+    }
+    semi_download_event = true;
   }
 
   document.getElementById('store-button').onclick = function () {
@@ -129,11 +125,12 @@ let ps_selected = false; // '특허 검색 왜..?'
       alert("It's only supported on Windows 10.");
     }
 
-    if (store_event === false && gtag_ignore === false) {
+    if (!store_event && !gtag_ignore) {
       gtag('event', 'click_store', {
         'event_category': 'button'
       });
     }
+    store_event = true;
   }
 
   document.getElementById('download').onclick = function(ev) {
