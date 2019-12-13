@@ -10806,7 +10806,7 @@ header.masthead b1 {
 }
 
 header.masthead p {
-  font-size: 0.8rem;
+  font-size: .9rem;
   font-family: 'Gothic+A1', sans-serif;
 }
 
@@ -10838,7 +10838,7 @@ header.masthead .popup-img {
     padding-top: 6.5rem !important;
   }
   header.masthead p {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
   header.masthead .popup-img {
     border: 0rem;
@@ -10854,7 +10854,7 @@ header.masthead .popup-img {
     padding-bottom: 0;
   }
   header.masthead p {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -10866,7 +10866,7 @@ header.masthead .popup-img {
     font-size: 3.5rem;
   }
   header.masthead p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   header.masthead span {
     font-size: 1.2rem;
