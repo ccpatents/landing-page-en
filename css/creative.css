@@ -10838,6 +10838,10 @@ header.masthead p {
   font-family: 'Gothic+A1', sans-serif;
 }
 
+header.masthead span {
+  font-size: 1.2rem;
+}
+
 header.masthead h1 {
   font-size: 2.25rem;
 }
