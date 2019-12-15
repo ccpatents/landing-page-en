@@ -40,7 +40,8 @@
 	}
 
 	.nav-link-wrap {
-		background: linear-gradient(to bottom, #{fade-out($secondary, .15)} 0%, #{fade-out($secondary, .3)} 100%), url('https://1.bp.blogspot.com/-uLCJWHPeowQ/XdPsNwMYJ1I/AAAAAAAAHMo/_49deqqtdmch-wsdOWhgN6gG5ZD3tff_gCLcBGAsYHQ/s1600/bg.jpg');
+		background: linear-gradient(to bottom, #{fade-out($secondary, .15)} 0%, #{fade-out($secondary, .3)} 100%),
+		url('https://1.bp.blogspot.com/-uLCJWHPeowQ/XdPsNwMYJ1I/AAAAAAAAHMo/_49deqqtdmch-wsdOWhgN6gG5ZD3tff_gCLcBGAsYHQ/s1600/bg.jpg');
 
 		// @include gradient-background();
 		@include media-breakpoint-up(md) {
@@ -53,7 +54,8 @@
 		}
 
 		@include media-breakpoint-down(sm) {
-			background: linear-gradient(to bottom, #{fade-out($secondary, .05)} 0%, #{fade-out($secondary, .2)} 100%), url('https://1.bp.blogspot.com/-uLCJWHPeowQ/XdPsNwMYJ1I/AAAAAAAAHMo/_49deqqtdmch-wsdOWhgN6gG5ZD3tff_gCLcBGAsYHQ/s1600/bg.jpg');
+			background: linear-gradient(to bottom, #{fade-out($secondary, .05)} 0%, #{fade-out($secondary, .2)} 100%),
+			url('https://1.bp.blogspot.com/-uLCJWHPeowQ/XdPsNwMYJ1I/AAAAAAAAHMo/_49deqqtdmch-wsdOWhgN6gG5ZD3tff_gCLcBGAsYHQ/s1600/bg.jpg');
 			padding-top: 0.65rem !important;
 			padding-bottom: 0.65rem !important;
 			margin-top: 30px;
@@ -71,7 +73,7 @@
 			border-radius: 0;
 			margin-bottom: 0;
 			color: #ffffff;
-			font-size: 18px;
+			font-size: 1.8rem;
 			font-weight: 500;
 			position: relative;
 			font-family: 'Gothic+A1', sans-serif;
@@ -99,7 +101,7 @@
 			&.active,
 			&:hover {
 				color: $white;
-				font-size: 20px;
+				font-size: 2rem;
 				// background: #333644;
 				@include transition(.3s);
 				background: transparent;
@@ -128,6 +130,16 @@
 	}
 
 	.tab-content {
+		h2 {
+			font-size: 2.5rem;
+			color: $dark;
+		}
+
+		p {
+			font-size: 1.5rem;
+			color: $dark;
+		}
+
 		.tab-pane {
 			font-family: 'Gothic+A1', sans-serif;
 			color: #292929;
