@@ -117,6 +117,7 @@
 
 				@include media-breakpoint-down(sm) {
 					font-size: 1.2rem;
+
 					&:after {
 						opacity: 0;
 					}
@@ -149,6 +150,12 @@
 
 		.btn {
 			font-size: 20px;
+		}
+
+		@include media-breakpoint-down(sm) {
+			h2 {
+				font-size: 1.8rem;
+			}
 		}
 	}
 }

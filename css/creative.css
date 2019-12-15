@@ -11127,6 +11127,12 @@ header.masthead .popup-img {
   font-size: 20px;
 }
 
+@media (max-width: 767.98px) {
+  #features .tab-content h2 {
+    font-size: 1.8rem;
+  }
+}
+
 #blog {
   margin-top: 0.35rem;
   font-family: 'Gothic+A1', sans-serif;
