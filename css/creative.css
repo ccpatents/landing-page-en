@@ -10856,6 +10856,9 @@ header.masthead .popup-img {
   header.masthead p {
     font-size: 1.5rem;
   }
+  header.masthead span {
+    font-size: 2rem;
+  }
   header.masthead .popup-img {
     border: 0rem;
     border-radius: 0rem;
