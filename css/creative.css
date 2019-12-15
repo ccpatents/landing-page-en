@@ -11092,6 +11092,9 @@ header.masthead .popup-img {
 }
 
 @media (max-width: 767.98px) {
+  #features .nav-pills .nav-link.active, #features .nav-pills .nav-link:hover {
+    font-size: 1.2rem;
+  }
   #features .nav-pills .nav-link.active:after, #features .nav-pills .nav-link:hover:after {
     opacity: 0;
   }
@@ -11101,6 +11104,7 @@ header.masthead .popup-img {
   #features .nav-pills .nav-link {
     display: block;
     width: 100%;
+    font-size: 1rem;
   }
 }
 
