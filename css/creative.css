@@ -10820,7 +10820,7 @@ header.masthead b {
   background-color: #ffd300;
   font-weight: bold;
   border-radius: 2px;
-  padding: 3px 4px 4px 3px;
+  padding: 1px 1px 2px 1px;
   opacity: 0.8;
 }
 
@@ -10829,13 +10829,14 @@ header.masthead b1 {
   background-color: rgba(0, 127, 255, 0.75);
   font-weight: bold;
   border-radius: 2px;
-  padding: 2px 3px 3px 2px;
+  padding: 1px 1px 2px 1px;
   opacity: 0.8;
 }
 
 header.masthead p {
   font-size: 1.2rem;
   font-family: 'Gothic+A1', sans-serif;
+  padding-bottom: .3rem;
 }
 
 header.masthead span {
@@ -10844,6 +10845,7 @@ header.masthead span {
 
 header.masthead h1 {
   font-size: 2.25rem;
+  font-weight: bold;
 }
 
 header.masthead #scroll-down {
@@ -10861,8 +10863,7 @@ header.masthead #scroll-down i {
 }
 
 header.masthead .popup-img {
-  border: 0.2rem double #aaa;
-  border-radius: 0.5rem;
+  border-radius: 0.1rem;
 }
 
 @media (max-width: 767.98px) {
@@ -10870,14 +10871,16 @@ header.masthead .popup-img {
     padding-top: 6.5rem !important;
   }
   header.masthead p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-family: 'Gothic+A1', sans-serif;
+    padding-bottom: .3rem;
   }
   header.masthead span {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
-  header.masthead .popup-img {
-    border: 0rem;
-    border-radius: 0rem;
+  header.masthead h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
   }
 }
 
@@ -11058,9 +11061,9 @@ header.masthead .popup-img {
 #features .nav-pills .nav-link {
   float: left;
   border-radius: 0;
-  margin-bottom: 0;
+  margin-bottom: .3rem;
   color: #ffffff;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 500;
   position: relative;
   font-family: 'Gothic+A1', sans-serif;
@@ -11088,7 +11091,7 @@ header.masthead .popup-img {
 
 #features .nav-pills .nav-link.active, #features .nav-pills .nav-link:hover {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.7rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background: transparent;
@@ -11133,7 +11136,7 @@ header.masthead .popup-img {
 }
 
 #features .tab-content p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #555555;
 }
 
@@ -11149,6 +11152,10 @@ header.masthead .popup-img {
 @media (max-width: 767.98px) {
   #features .tab-content h2 {
     font-size: 1.8rem;
+  }
+  #features .tab-content p {
+    font-size: 1.2rem;
+    color: #555555;
   }
 }
 
@@ -11397,6 +11404,12 @@ header.masthead .popup-img {
   border-radius: 2px;
 }
 
+@media (max-width: 767.98px) {
+  #install p {
+    font-size: 1.2rem;
+  }
+}
+
 #contact {
   font-family: 'Gothic+A1', sans-serif;
   background-image: url("https://1.bp.blogspot.com/-VHB4iAs11A4/XdKECk5GCkI/AAAAAAAAHMA/Bw5IYcni3fU59IKHI7x6ssnykqTj8y33ACLcBGAsYHQ/s1600/bg.png");
@@ -11405,6 +11418,16 @@ header.masthead .popup-img {
   position: relative;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  color: #555555;
+}
+
+#contact p {
+  font-size: 1.2rem;
+  color: #555555;
 }
 
 #contact input {
@@ -11540,6 +11563,9 @@ header.masthead .popup-img {
 @media (max-width: 767.98px) {
   #contact {
     padding: 6em 0;
+  }
+  #contact p {
+    font-size: 1.1rem;
   }
 }
 

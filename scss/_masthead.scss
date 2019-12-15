@@ -16,7 +16,7 @@ header.masthead {
     background-color: $gold;
     font-weight: bold;
     border-radius: 2px;
-    padding: 3px 4px 4px 3px;
+    padding: 1px 1px 2px 1px;
     opacity: 0.8;
   }
 
@@ -25,13 +25,14 @@ header.masthead {
 		background-color: rgba(0, 127, 255, 0.75);
     font-weight: bold;
     border-radius: 2px;
-    padding: 2px 3px 3px 2px;
+    padding: 1px 1px 2px 1px;
     opacity: 0.8;
   }
 
   p {
     font-size: 1.2rem;
     font-family: 'Gothic+A1', sans-serif;
+    padding-bottom: .3rem;
   }
 
   span {
@@ -40,6 +41,7 @@ header.masthead {
 
   h1 {
     font-size: 2.25rem;
+    font-weight: bold;
   }
 
   #scroll-down {
@@ -57,24 +59,26 @@ header.masthead {
   }
 
   .popup-img {
-    border: 0.2rem double #aaa;
-    border-radius: 0.5rem; 
+    //border: 0.2rem double #aaa;
+    border-radius: 0.1rem;
   }
 
   @include media-breakpoint-down(sm) {
     padding-top: 6.5rem !important;
 
     p {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      font-family: 'Gothic+A1', sans-serif;
+      padding-bottom: .3rem;
     }
-
+  
     span {
-      font-size: 1.8rem;
+      font-size: 1.2rem;
     }
-
-    .popup-img {
-      border: 0rem;
-      border-radius: 0rem; 
+  
+    h1 {
+      font-size: 2.25rem;
+      font-weight: bold;
     }
   }
 
