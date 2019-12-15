@@ -10634,9 +10634,9 @@ hr.light {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .page-section {
-    padding: 0 5rem;
+    padding: 0 1rem;
   }
 }
 
@@ -10903,10 +10903,10 @@ header.masthead .popup-img {
     font-size: 1.5rem;
   }
   header.masthead p {
-    font-size: 1.5rem;
+    font-size: 2.1rem;
   }
   header.masthead span {
-    font-size: 1.5rem;
+    font-size: 2.1rem;
   }
 }
 
