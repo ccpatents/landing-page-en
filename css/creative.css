@@ -10870,6 +10870,10 @@ header.masthead b1 {
   opacity: 0.8;
 }
 
+header.masthead b2 {
+  color: #ff7f00;
+}
+
 header.masthead span {
   font-size: 1.2rem;
 }
