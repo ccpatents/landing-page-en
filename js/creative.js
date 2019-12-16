@@ -20,7 +20,6 @@ let ps_selected = false; // '특허 검색 왜..?'
       document.getElementById("win10_warn").style.display = "block";
     } else {
       //pc 
-      document.getElementById("download-button").style.display = "block";
     }
   }
 
@@ -107,15 +106,6 @@ let ps_selected = false; // '특허 검색 왜..?'
     WebShare();
   }
 
-  document.getElementById('download-button').onclick = function () {
-    if (!semi_download_event) {
-      gtag('event', 'semi_download', {
-        'event_category': 'button'
-      });
-    }
-    semi_download_event = true;
-  }
-
   document.getElementById('store-button').onclick = function () {
     let gtag_ignore = true;
 
@@ -136,6 +126,13 @@ let ps_selected = false; // '특허 검색 왜..?'
   document.getElementById('download').onclick = function(ev) {
     document.getElementById('install-video').src += "&autoplay=1";
     ev.preventDefault();
+
+    if (!semi_download_event) {
+      gtag('event', 'semi_download', {
+        'event_category': 'button'
+      });
+    }
+    semi_download_event = true;
   }
 
   setTimeout(function () {
